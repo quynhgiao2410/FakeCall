@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Kiểm tra các thành phần ở intro có hiển thị đầy đủ hay không</description>
+   <name>KiemtraimageIntro1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>32af136f-c733-48fc-94b1-7a5e5fb885b5</testCaseGuid>
+</TestCaseEntity>

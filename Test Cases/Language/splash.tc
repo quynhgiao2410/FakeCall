@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dùng để mở app</description>
+   <name>splash</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24248a46-19d1-4546-ac62-e617aa6f9f89</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>kiểm tra sô ảnh đã get</description>
+   <name>Add New charater</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f365d06c-3c6a-4db6-97d7-5294112dec97</testCaseGuid>
+</TestCaseEntity>

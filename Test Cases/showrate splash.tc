@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>kiểm tra showrate tại màn splash</description>
+   <name>showrate splash</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc3fd9d7-aa36-47dc-a7a6-b67307fad9f9</testCaseGuid>
+</TestCaseEntity>
