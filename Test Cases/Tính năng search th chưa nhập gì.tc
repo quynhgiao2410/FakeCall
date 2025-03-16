@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tính năng search th chưa nhập gì</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02fbe97a-9338-4e34-99e9-472f70ae713d</testCaseGuid>
+</TestCaseEntity>

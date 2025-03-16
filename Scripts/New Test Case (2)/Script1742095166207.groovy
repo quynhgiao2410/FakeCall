@@ -17,31 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// Khởi động ứng dụng
 Mobile.startApplication('C:\\Users\\trant\\Downloads\\FCdemo.apk', true)
-//Mobile.startApplication('C:\\Users\\Hi\\Downloads\\FCdemo.apk', true)
-// Chờ một chút để quảng cáo tải lên
-//
-Mobile.delay(5)
-// Kiểm tra xem "consent" có xuất hiện không
-if (Mobile.verifyElementExist(findTestObject('Object Repository/btnconsent'), 5, FailureHandling.OPTIONAL)) {
-	println("consent  xuất hiện! Đang đóng...")
 
-	// Nhấn vào nút consent
-	Mobile.tap(findTestObject('Object Repository/btnconsent'), 5)
-	println("Đã nhấn vào nút đóng consent!")
-} else {
-	println("Không có consent.")
-}
+Mobile.closeApplication()
 
-Mobile.delay(5)
-// Kiểm tra xem "Test Ad" có xuất hiện không
-if (Mobile.verifyElementExist(findTestObject('Object Repository/Test_Ad'), 5, FailureHandling.OPTIONAL)) {
-	println("Quảng cáo xuất hiện! Đang đóng...")
-
-	// Nhấn vào nút Close Ads
-	Mobile.tap(findTestObject('Object Repository/Close_Ads_Button'), 5)
-	println("Đã nhấn vào nút đóng quảng cáo!")
-} else {
-	println("Không có quảng cáo xuất hiện.")
-}

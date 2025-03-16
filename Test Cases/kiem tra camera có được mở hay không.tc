@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>kiem tra camera có được mở hay không</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ba0fa98-8655-420b-b429-8aa89b0d0e52</testCaseGuid>
+</TestCaseEntity>

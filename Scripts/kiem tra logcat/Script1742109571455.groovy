@@ -17,31 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// Khởi động ứng dụng
-Mobile.startApplication('C:\\Users\\trant\\Downloads\\FCdemo.apk', true)
-//Mobile.startApplication('C:\\Users\\Hi\\Downloads\\FCdemo.apk', true)
-// Chờ một chút để quảng cáo tải lên
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+
+//// Bắt đầu ứng dụng
+//Mobile.startApplication('/path/to/your/app.apk', false)
 //
-Mobile.delay(5)
-// Kiểm tra xem "consent" có xuất hiện không
-if (Mobile.verifyElementExist(findTestObject('Object Repository/btnconsent'), 5, FailureHandling.OPTIONAL)) {
-	println("consent  xuất hiện! Đang đóng...")
+//// Đọc Logcat để kiểm tra sự kiện rung
+//String logcatOutput = Mobile.getDeviceLogs()
+//if (logcatOutput.contains("vibrator")) {
+//	println("Ứng dụng đang rung!")
+//} else {
+//	println("Ứng dụng không rung.")
+//}
+//
+//// Đóng ứng dụng
+//Mobile.closeApplication()
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.util.KeywordUtil
 
-	// Nhấn vào nút consent
-	Mobile.tap(findTestObject('Object Repository/btnconsent'), 5)
-	println("Đã nhấn vào nút đóng consent!")
+// Khởi động ứng dụng
+Mobile.startApplication('/path/to/your/app.apk', false)
+
+// Xóa logcat để lấy log mới nhất
+Mobile.executeShellCommand("logcat -c")
+
+// Đợi một chút để ứng dụng rung (tùy vào logic của app)
+Mobile.delay(3)
+
+// Lấy logcat kiểm tra rung
+String logOutput = Mobile.executeShellCommand("logcat -d | grep VibratorService")
+
+if (logOutput.contains("VibratorService")) {
+	KeywordUtil.logInfo("Ứng dụng đang rung!")
 } else {
-	println("Không có consent.")
+	KeywordUtil.logInfo("Ứng dụng không rung.")
 }
 
-Mobile.delay(5)
-// Kiểm tra xem "Test Ad" có xuất hiện không
-if (Mobile.verifyElementExist(findTestObject('Object Repository/Test_Ad'), 5, FailureHandling.OPTIONAL)) {
-	println("Quảng cáo xuất hiện! Đang đóng...")
-
-	// Nhấn vào nút Close Ads
-	Mobile.tap(findTestObject('Object Repository/Close_Ads_Button'), 5)
-	println("Đã nhấn vào nút đóng quảng cáo!")
-} else {
-	println("Không có quảng cáo xuất hiện.")
-}
+// Đóng ứng dụng
+Mobile.closeApplication()
