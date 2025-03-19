@@ -12,56 +12,63 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>dbfd6fe6-5d17-49d8-85f1-5ead60d9f999</testSuiteGuid>
    <testCaseLink>
-      <guid>fcac3d0c-bdf9-45c8-b6e9-c215a30a51b8</guid>
+      <guid>391c11cf-a805-42f6-a2f2-ae8280fb0dc7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Splash</testCaseId>
+      <testCaseId>Test Cases/showrate splash</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>435ea0f9-d2e6-4f5c-b0ab-c3ee1e7e1e32</guid>
+      <guid>67d07271-1aba-4890-b92b-92174599acfe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Intro/Kiểm tra text next</testCaseId>
+      <testCaseId>Test Cases/Language/language</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>69b2441b-ad99-4227-9c73-f208a858e6e2</guid>
+      <guid>5830682e-d221-4bc1-a99f-b72e58469dd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intro/KiemtracontentIntro1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>020fb145-10d9-47fe-bc5a-f1ac36086ac9</guid>
+      <guid>ca9decb5-d5e4-495c-8b3f-1e3580157816</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intro/KiemtraimageIntro1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bf930983-bea3-45fb-b653-2e18c04cc0b0</guid>
+      <guid>74eb55d9-2cf6-43a9-aab4-00e9d3983813</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intro/Kiểm tra ads native</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>593e346b-4b58-4d9f-b38d-6a85c1052662</guid>
+      <guid>f4dfe175-71e1-4682-b4d3-8436c6364385</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intro/Kiểm Tra indicator</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5ced8d44-d416-423c-ae60-478c05d5185d</guid>
+      <guid>9cd0dab1-067b-4480-9cf7-a21d4f662d72</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Intro/Kiểm tra text next</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e599b3d6-ced6-4465-a2d6-1ba9b39f6d3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intro/intro2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6bec4121-7765-4b20-b12f-23da63d557c6</guid>
+      <guid>2138d1df-ae04-4705-b2a7-732b25837c8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Home</testCaseId>

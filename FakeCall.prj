@@ -6,12 +6,12 @@
    <UUID>f2047da2-b4c5-4085-9506-1e506a35432e</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>9.7.3</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.1.0</modifiedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.7.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\trant\git\FakeCall\FakeCall.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\Hi\Katalon Studio\FakeCall\FakeCall.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

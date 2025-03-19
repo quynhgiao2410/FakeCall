@@ -36,6 +36,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
+Mobile.callTestCase(findTestCase('Start app'), null)
 
 Mobile.startApplication('C:\\Users\\Hi\\Downloads\\FCdemo.apk', true)
 Mobile.delay(2)
@@ -76,66 +77,3 @@ double showRate = (totalAdsShown / (double)totalTests) * 100
 // Sử dụng String.format để làm tròn đến 2 chữ số thập phân
 String formattedShowRate = String.format("%.2f", showRate)
 //==========================================================================================
-
-Mobile.startApplication('C:\\Users\\Hi\\Downloads\\FCdemo.apk', false)
-
-
-Mobile.delay(2)
-// Kiểm tra xem "consent" có xuất hiện không
-if (Mobile.verifyElementExist(findTestObject('Object Repository/btnconsent'), 5, FailureHandling.OPTIONAL)) {
-	println("consent  xuất hiện! Đang đóng...")
-
-	// Nhấn vào nút consent
-	Mobile.tap(findTestObject('Object Repository/btnconsent'), 5)
-	println("Đã nhấn vào nút đóng consent!")
-} else {
-	println("Không có consent.")
-}
-
-
-Mobile.tap(findTestObject("Language/LanguageRadioButton/English"), 0)
-
-Mobile.tap(findTestObject("Language/Buttonselect"), 0)
-// Chờ và xác minh quảng cáo xuất hiện
-Mobile.waitForElementPresent(findTestObject('Object Repository/Test_Ad'), 30)
-int totalAdsShown1 = 0
-int totalTests1 = 5
-
-for (int i = 0; i < totalTests1; i++) {
-	Mobile.startApplication('C:\\Users\\Hi\\Downloads\\FCdemo.apk', false)
-//	Mobile.delay(30)
-	// Chờ và kiểm tra quảng cáo xuất hiện
-	if (Mobile.waitForElementPresent(findTestObject('Object Repository/Test_Ad'), 30)) {
-		totalAdsShown1++
-	}
-	
-	// Đóng ứng dụng hoặc quay lại màn hình chính
-	Mobile.closeApplication()
-}
-
-
-
-// Tính phần trăm (đảm bảo dùng double để tính toán chính xác)
-double showRate1 = (totalAdsShown1 / (double)totalTests1) * 100
-
-if (showRate >= 80) {
-	KeywordUtil.logInfo("Show rate đạt")
-
-}else {
-	KeywordUtil.markFailed("Show rate không đạt")
-}
-if (showRate1 >= 80) {
-	KeywordUtil.logInfo("Show rate splash intro đạt")
-
-}else {
-	KeywordUtil.markFailed("Show rate splash intro không đạt")
-}
-
-// Hiển thị kết quả
-KeywordUtil.logInfo("Show rate: " + formattedShowRate + "%")
-
-
-
-
-
-

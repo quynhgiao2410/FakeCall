@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.util.KeywordUtil
-Mobile.callTestCase(findTestCase('splash'), null)
+//Mobile.callTestCase(findTestCase('splash'), null)
+Mobile.callTestCase(findTestCase('Start app'), null)
+Mobile.callTestCase(findTestCase('adsinter'), null)
 
-Mobile.tap(findTestObject("Language/LanguageRadioButton/English"), 0)
 
-Mobile.tap(findTestObject("Language/Buttonselect"), 0)
 String actualText = Mobile.getText(findTestObject('Object Repository/Intro/Text Funny Call With'), 10)
 
 // So sánh thủ công
@@ -35,11 +35,12 @@ if (actualText == 'Funny Call With ' ) {
 
 String actualText1 = Mobile.getText(findTestObject('Object Repository/Intro/Text Famus Idol'), 10)
 
-// So sánh thủ công
-if (actualText1 == ' FAMOUS IDOL' ) {
-	KeywordUtil.logInfo('✅ Nội dung hiển thị chính xác: ' + actualText1)
-} else {
-	KeywordUtil.markFailed('❌ Nội dung sai: ' + actualText1)
-}
 
-Mobile.closeApplication()
+
+
+String actualText1 = Mobile.getText(findTestObject('Object Repository/Intro/Text Famus Idol'), 10)
+if (actualText1.trim().equalsIgnoreCase(' FAMOUS IDOL')) {
+	KeywordUtil.logInfo("✅ Nội dung hiển thị chính xác!")
+} else {
+	KeywordUtil.markFailed("❌ Nội dung sai! Giá trị thực tế: '" + actualText1 + "'")
+}

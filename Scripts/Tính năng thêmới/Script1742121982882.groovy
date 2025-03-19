@@ -30,7 +30,8 @@ import com.kms.katalon.core.util.KeywordUtil
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.ui.WebDriverWait
-Mobile.startApplication('C:\\Users\\trant\\Downloads\\FCdemo.apk', false)
+Mobile.callTestCase(findTestCase('Start app'), null)
+
 // 1. Nhập văn bản vào trường tìm kiếm
 String CreateNew = "ABC" // Văn bản bạn muốn tìm kiếm
 TestObject CharacterName = findTestObject("Object Repository/CharaterNameBox") // Đảm bảo bạn đã tạo Object Repository cho SearchBox
@@ -45,30 +46,3 @@ if (!CreateNew) {
 } else {
 	KeywordUtil.logInfo("Tạo mới thành công.")
 }
-
-
-//// 2. Kiểm tra xem có TextView hoặc phần tử nào chứa văn bản 'ABC' trên màn hình không
-//boolean isTextFound = false
-//try {
-//	// Chờ phần tử chứa text "ABC" xuất hiện trên màn hình
-//	WebDriverWait wait = new WebDriverWait(MobileDriverFactory.getDriver(), 10)
-//	WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@text, '" + CreateNew + "')]")))
-//
-//	// Kiểm tra nếu phần tử này có chứa text "ABC"
-//	if (element != null && element.getText().contains(CreateNew)) {
-//		isTextFound = true
-//		KeywordUtil.logInfo("✅ Text '" + CreateNew + "' đã được tìm thấy trên màn hình.")
-//	} else {
-//		KeywordUtil.logInfo("❌ Không tìm thấy text '" + CreateNew + "' trên màn hình.")
-//	}
-//} catch (Exception e) {
-//	// Nếu không tìm thấy text hoặc gặp lỗi
-//	KeywordUtil.markWarning("⚠️ Không tìm thấy text '" + CreateNew + "' trên màn hình.")
-//}
-//
-//// Kết luận
-//if (isTextFound) {
-//	KeywordUtil.logInfo("✅ Kiểm tra thành công: Text '" + CreateNew + "' đã được tìm thấy.")
-//} else {
-//	KeywordUtil.logInfo("❌ Kiểm tra thất bại: Không tìm thấy text '" + CreateNew + "' trên màn hình.")
-//}

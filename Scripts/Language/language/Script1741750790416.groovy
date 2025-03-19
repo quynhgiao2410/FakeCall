@@ -41,21 +41,9 @@ import io.appium.java_client.android.AndroidDriver
 
 
 
-// Khởi động ứng dụng
-Mobile.startApplication('C:\\Users\\Hi\\Downloads\\FCdemo.apk', true)
-// Chờ một chút để quảng cáo tải lên
-//
-Mobile.delay(5)
-// Kiểm tra xem "consent" có xuất hiện không
-if (Mobile.verifyElementExist(findTestObject('Object Repository/btnconsent'), 5, FailureHandling.OPTIONAL)) {
-	println("consent  xuất hiện! Đang đóng...")
 
-	// Nhấn vào nút consent
-	Mobile.tap(findTestObject('Object Repository/btnconsent'), 5)
-	println("Đã nhấn vào nút đóng consent!")
-} else {
-	println("Không có consent.")
-}
+Mobile.callTestCase(findTestCase('Start app'), null)
+//Mobile.callTestCase(findTestCase('adsinter'), null)
 
 Mobile.delay(5)
 // Kiểm tra xem "Test Ad" có xuất hiện không
@@ -68,7 +56,6 @@ if (Mobile.verifyElementExist(findTestObject('Object Repository/Test_Ad'), 5, Fa
 } else {
 	println("Không có quảng cáo xuất hiện.")
 }
-
 
 // **1. Kiểm tra tiêu đề màn hình**
 Mobile.verifyElementText(findTestObject('Object Repository/Language/LanguageTitle'), 'Language')
@@ -117,10 +104,10 @@ for (int i = 0; i < 3; i++) { // Thử lại 3 lần nếu lỗi
 }
 
 
-
-Mobile.swipe(200, 500, 200, 300)
-
 Mobile.tap(findTestObject("Language/Buttonselect"), 0)
+
+
+
 
 // **6. Đóng ứng dụng**
 //Mobile.closeApplication()

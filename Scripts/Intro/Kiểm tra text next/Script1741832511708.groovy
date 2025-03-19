@@ -32,11 +32,9 @@ import org.openqa.selenium.TakesScreenshot
 import org.apache.commons.io.FileUtils
 import java.io.File
 
+Mobile.callTestCase(findTestCase('Start app'), null)
+Mobile.callTestCase(findTestCase('adsinter'), null)
 
-Mobile.callTestCase(findTestCase('splash'), null)
-Mobile.tap(findTestObject("Language/LanguageRadioButton/English"), 0)
-
-Mobile.tap(findTestObject("Language/Buttonselect"), 0)
 String actualText = Mobile.getText(findTestObject('Object Repository/Intro/btnnext'), 10)
 
 boolean isElementPresent = Mobile.verifyElementExist(findTestObject('Object Repository/Intro/btnnext'), 10)

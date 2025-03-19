@@ -3,7 +3,7 @@
    <description></description>
    <name>DescriptionAdsIntro</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>4335a05c-0703-4c18-a5b2-8406b214f589</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>7cd91563-d2f7-42a1-a8d4-489530cbcaef</webElementGuid>
+      <webElementGuid>0421e647-e133-4769-8405-c0823097d276</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>index</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>524bcae3-9e69-4d31-b603-9ebe86c864de</webElementGuid>
+      <webElementGuid>2fa7b30b-740a-46e6-8672-65d5ac37e7f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Install Flood-It App for free! Free Popular Casual Game</value>
-      <webElementGuid>74d56c5d-0d5f-4a0d-bae0-204e3c9c7296</webElementGuid>
+      <webElementGuid>5e789908-0f55-43c6-b28c-c4e393ae0d13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.asianmobile.fakecall:id/tvMessageAds</value>
-      <webElementGuid>9c80cab3-2dff-4111-9187-f5619314dc1c</webElementGuid>
+      <webElementGuid>aeb33197-87c9-4141-88db-28b182f921ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.asianmobile.fakecall</value>
-      <webElementGuid>666cb004-314e-4db2-8d75-0b052a791188</webElementGuid>
+      <webElementGuid>3a3404aa-da9b-4948-a3cd-e6e2ee707cdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b607ac84-714c-40a2-9c5c-658a6cd06fa2</webElementGuid>
+      <webElementGuid>0477614f-1430-473a-ab5f-abf1ff6cdb6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>06ddd00e-68ad-41c1-9fc1-15c17aa2c2d1</webElementGuid>
+      <webElementGuid>0389156d-0343-436f-a0b6-559a99a3910a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>80222c11-777f-4f52-876f-5b3bc6c301e9</webElementGuid>
+      <webElementGuid>8a22019e-75d9-4b0c-a492-5b6efc7c4b53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b141a28c-864e-4bfc-bbc7-5ca94d295bea</webElementGuid>
+      <webElementGuid>4596bddf-ad05-4e7b-a6ea-2c5d21a76f08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>807e67a1-64aa-46e4-bf53-b1b292c39a87</webElementGuid>
+      <webElementGuid>66ae48c3-e813-462b-b504-9d09c3657c70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e24330c5-419a-4f2c-b985-fae20467a9cd</webElementGuid>
+      <webElementGuid>eb17b2dd-f606-439d-9123-a81648d52580</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>187b8655-b5ea-4e6f-b69a-ae2f24519e4d</webElementGuid>
+      <webElementGuid>a0ae506b-a5db-4924-a1ab-ee605fef7e1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ac53e1ed-0ee2-4d88-bc65-34fb0970927f</webElementGuid>
+      <webElementGuid>6076a151-d38c-4193-8c8e-d0e4b15d4d78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d6a29361-2e08-462b-91a2-f6c91bebbb9e</webElementGuid>
+      <webElementGuid>bfbfe931-c3ab-4068-9254-47d751135e98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>49d285d9-0546-4dc7-a415-2cae1b70ff79</webElementGuid>
+      <webElementGuid>297a9c12-b252-41fb-bbc3-7b8d93b1765b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>x</name>
       <type>Main</type>
       <value>99</value>
-      <webElementGuid>7854611c-1682-49e2-9fac-aaea1123ee3e</webElementGuid>
+      <webElementGuid>08149ae1-75af-4946-b8b4-d3ddab160f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1635</value>
-      <webElementGuid>bb1c7120-d252-40e8-8317-c8ec7a3391f1</webElementGuid>
+      <webElementGuid>69fefe40-25bd-460e-b26c-519c9222a835</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>width</name>
       <type>Main</type>
       <value>876</value>
-      <webElementGuid>caa8acbe-e2b1-48be-abd0-8506d30360bf</webElementGuid>
+      <webElementGuid>2bb9d6d7-38ab-4c00-8860-9519d64e2a1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>height</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>a9cfe96c-2bbc-44cf-b8ad-b9d3da6a9811</webElementGuid>
+      <webElementGuid>24afe7e8-a40f-46b6-9c0d-5dfb86a398d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[99,1635][975,1685]</value>
-      <webElementGuid>9ff59de2-f9c0-4fcc-b35f-a0d5ab913eff</webElementGuid>
+      <webElementGuid>cc07d621-3e8f-47df-90fa-bef7ebc349a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,7 +173,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>38535673-e8a9-4376-a1c4-be6ce34f0a5c</webElementGuid>
+      <webElementGuid>ad74e88e-ac53-482f-b7f4-79e07a976d57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -181,32 +181,17 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[3]</value>
-      <webElementGuid>a60ae293-9272-4147-bd87-71e0e36ffc83</webElementGuid>
+      <webElementGuid>2f1578cd-e031-4fd2-91eb-c0336006e2df</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Install Flood-It App for free! Free Popular Casual Game' or . = 'Install Flood-It App for free! Free Popular Casual Game') and @resource-id = 'com.asianmobile.fakecall:id/tvMessageAds']</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[3]</locator>
    <locatorCollection>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-      </entry>
-      <entry>
          <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.TextView</value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Install Flood-It App for free! Free Popular Casual Game' or . = 'Install Flood-It App for free! Free Popular Casual Game') and @resource-id = 'com.asianmobile.fakecall:id/tvMessageAds']</value>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**[`enabled == 1`]</value>
       </entry>
       <entry>
          <key>ID</key>
@@ -214,6 +199,11 @@
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Install Flood-It App for free! Free Popular Casual Game' or . = 'Install Flood-It App for free! Free Popular Casual Game') and @resource-id = 'com.asianmobile.fakecall:id/tvMessageAds']</value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
@@ -221,12 +211,29 @@
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
+         <value>enabled == 1</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.TextView</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[3]</value>
       </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
    </locatorCollection>
-   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <locatorStrategy>XPATH</locatorStrategy>
    <platform>ANDROID</platform>
 </MobileElementEntity>

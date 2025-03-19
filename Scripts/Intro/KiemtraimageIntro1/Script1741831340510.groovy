@@ -19,10 +19,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.util.KeywordUtil
-Mobile.callTestCase(findTestCase('Language/splash'), null)
-Mobile.tap(findTestObject("Language/LanguageRadioButton/English"), 0)
+Mobile.callTestCase(findTestCase('Start app'), null)
+Mobile.callTestCase(findTestCase('adsinter'), null)
 
-Mobile.tap(findTestObject("Language/Buttonselect"), 0)
 // Tìm kiếm hình ảnh dựa vào đối tượng trong Object Repository
 boolean isElementPresent = Mobile.verifyElementExist(findTestObject('Object Repository/Intro/ImageIntro1'), 10)
 

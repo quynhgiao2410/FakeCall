@@ -18,7 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.util.KeywordUtil
-Mobile.callTestCase(findTestCase('splash'), null)
+Mobile.callTestCase(findTestCase('Start app'), null)
+
+Mobile.callTestCase(findTestCase('adsinter'), null)
 
 Mobile.tap(findTestObject("Language/LanguageRadioButton/English"), 0)
 

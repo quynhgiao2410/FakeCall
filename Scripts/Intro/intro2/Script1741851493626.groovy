@@ -38,11 +38,16 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.util.KeywordUtil
-Mobile.callTestCase(findTestCase('Language/splash'), null)
+//Mobile.callTestCase(findTestCase('Language/splash'), null)
+Mobile.callTestCase(findTestCase('Start app'), null)
+Mobile.callTestCase(findTestCase('adsinter'), null)
 
-Mobile.tap(findTestObject("Language/LanguageRadioButton/English"), 0)
+int posX = Mobile.getElementLeftPosition(findTestObject("Intro/btnnext"), 0)
+int posY = Mobile.getElementTopPosition(findTestObject("Intro/btnnext"), 0)
 
-Mobile.tap(findTestObject("Language/Buttonselect"), 0)
+println("Tọa độ X: " + posX)
+println("Tọa độ Y: " + posY)
+
 
 
 // Tìm kiếm hình ảnh dựa vào đối tượng trong Object Repository

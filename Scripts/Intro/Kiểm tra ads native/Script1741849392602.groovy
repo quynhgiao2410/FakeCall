@@ -20,13 +20,11 @@ import org.openqa.selenium.Keys as Keys
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.util.KeywordUtil
+//
+//
+Mobile.callTestCase(findTestCase('Start app'), null)
+Mobile.callTestCase(findTestCase('adsinter'), null)
 
-
-Mobile.callTestCase(findTestCase('Language/splash'), null)
-
-Mobile.tap(findTestObject("Language/LanguageRadioButton/English"), 0)
-
-Mobile.tap(findTestObject("Language/Buttonselect"), 0)
 
 // Kiểm tra xem quảng cáo Native có hiển thị không
 if (Mobile.waitForElementPresent(findTestObject('Object Repository/Intro/AdsIntro'), 10, FailureHandling.OPTIONAL)) {
@@ -53,5 +51,5 @@ if (Mobile.waitForElementPresent(findTestObject('Object Repository/Intro/AdsIntr
 }
 
 // Đóng ứng dụng sau khi kiểm tra
-Mobile.closeApplication()
+
 

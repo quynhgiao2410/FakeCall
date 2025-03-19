@@ -20,16 +20,28 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 
-Mobile.startApplication('C:\\Users\\trant\\Downloads\\FCdemo.apk', false)
-
+////Mobile.closeApplication()
+Mobile.callTestCase(findTestCase('Start app'), null)
+for (int x = 0; x <5 ; x++) {
 // Kiểm tra xem text "Dismiss" có hiển thị không
-if (Mobile.verifyElementExist(findTestObject('Object Repository/android.widget.TextView - Dismiss'), 5, FailureHandling.OPTIONAL)) {
-	// Click vào text "Dismiss"
-	Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Dismiss'), 5)
+if (x<5 && Mobile.verifyElementExist(new TestObject().addProperty("xpath",
+	com.kms.katalon.core.testobject.ConditionType.EQUALS, "//android.widget.TextView[@text='Dismiss']"),
+	5, FailureHandling.OPTIONAL)) {
+	
+	// Nếu tồn tại, bấm vào
+	Mobile.tap(new TestObject().addProperty("xpath",
+		com.kms.katalon.core.testobject.ConditionType.EQUALS, "//android.widget.TextView[@text='Dismiss']"), 5)
+	
 	println('Clicked on "Dismiss" button')
 } else {
 	println('"Dismiss" button not found')
 }
-
+}
+Mobile.tap(findTestObject, x)
 // Đóng ứng dụng
 Mobile.closeApplication()
+
+
+
+
+

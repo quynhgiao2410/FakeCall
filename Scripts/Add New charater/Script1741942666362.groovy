@@ -51,9 +51,8 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import java.io.File
 import java.util.List
 
-// Mở ứng dụng cần kiểm tra
-Mobile.startApplication('C:\\Users\\Hi\\Downloads\\FCdemo.apk', false) // Thay thế đường dẫn app.apk của bạn
-
+Mobile.callTestCase(findTestCase('Start app'), null)
+  
 // Lấy đối tượng AppiumDriver
 AppiumDriver<MobileElement> driver = MobileDriverFactory.getDriver()
 

@@ -48,12 +48,14 @@ import org.openqa.selenium.WebElement
 import org.openqa.selenium.By
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 
-// Bước 1: Mở ứng dụng
-Mobile.startApplication('C:\\Users\\trant\\Downloads\\FCdemo.apk', false)
-
+Mobile.callTestCase(findTestCase('Start app'), null)
+Mobile.callTestCase(findTestCase('adsinter'), null)
+Mobile.tap(findTestObject('BtnMore'), 0)
+Mobile.callTestCase(findTestCase('adsinter'), null)
+Mobile.tap(findTestObject('BtnSearch'), 0)
 
 // Bước 2: Tìm kiếm với từ khóa 'k'
-TestObject searchBox = findTestObject('Object Repository/SearchBox')  // Tìm đối tượng hộp tìm kiếm
+TestObject searchBox = findTestObject('SearchBox')  // Tìm đối tượng hộp tìm kiếm
 //TestObject searchButton = findTestObject('Object Repository/SearchButton')  // Tìm đối tượng nút tìm kiếm
 
 
@@ -75,4 +77,4 @@ if (isNoResultsVisible) {
 } else {
 	KeywordUtil.logInfo("❌ Tìm kiếm với từ khóa không hợp lệ 'NonExistingKeyword' vẫn có kết quả.")
 }
-
+Mobile.closeApplication()

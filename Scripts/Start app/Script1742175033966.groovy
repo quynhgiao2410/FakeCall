@@ -16,19 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil
 
-Mobile.callTestCase(findTestCase('Start app'), null)
-Mobile.callTestCase(findTestCase('adsinter'), null)
-
-// Tìm kiếm hình ảnh dựa vào đối tượng trong Object Repository
-boolean isElementPresent = Mobile.verifyElementExist(findTestObject('Object Repository/Intro/Indicator1'), 10)
-
-if (isElementPresent) {
-	Mobile.comment('Indicator tồn tại.')
-} else {
-	KeywordUtil.markFailed('Indicator không tồn tại: ')
-
-
-}
-
+//// Bước 1: Mở ứng dụng
+//Mobile.startApplication('C:\\Users\\trant\\Downloads\\FCdemo.apk', false)
+//// Mở ứng dụng cần kiểm tra
+//Mobile.startApplication('C:\\Users\\trant\\Downloads\\FCdemo.apk', false)
+//// Mở ứng dụng cần kiểm tra
+Mobile.startApplication('C:\\Users\\Hi\\Downloads\\FCdemo.apk', false) 

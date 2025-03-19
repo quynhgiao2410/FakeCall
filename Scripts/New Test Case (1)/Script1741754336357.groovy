@@ -129,6 +129,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.mobile.driver.DriverFactory
 import io.appium.java_client.AppiumDriver
 
+Mobile.callTestCase(findTestCase('Start app'), null)
 
 
 // Lấy MobileDriver của ứng dụng

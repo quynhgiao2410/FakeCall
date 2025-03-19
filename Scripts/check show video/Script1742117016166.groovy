@@ -37,7 +37,8 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.awt.image.BufferedImage
 import javax.imageio.ImageIO
 import java.io.File
-Mobile.startApplication('C:\\Users\\trant\\Downloads\\FCdemo.apk', false)
+Mobile.callTestCase(findTestCase('Start app'), null)
+
 Mobile.waitForElementPresent(findTestObject('Object Repository/Video'), 30) // Đợi video hiển thị
 
 

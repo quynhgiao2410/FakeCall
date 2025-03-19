@@ -21,13 +21,9 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.util.KeywordUtil
 
-Mobile.callTestCase(findTestCase('splash'), null)
+Mobile.callTestCase(findTestCase('Start app'), null)
 
-Mobile.tap(findTestObject("Language/LanguageRadioButton/English"), 0)
-
-Mobile.tap(findTestObject("Language/Buttonselect"), 0)
 Mobile.tap(findTestObject("Intro/btnnext"), 0)
-
 Mobile.tap(findTestObject("Intro/Text Start"), 0)
 Mobile.tap(findTestObject("Favourite/BtnGetStarted"), 0)
 

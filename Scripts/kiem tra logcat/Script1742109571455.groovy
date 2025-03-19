@@ -35,8 +35,8 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.util.KeywordUtil
 
-// Khởi động ứng dụng
-Mobile.startApplication('/path/to/your/app.apk', false)
+Mobile.callTestCase(findTestCase('Start app'), null)
+
 
 // Xóa logcat để lấy log mới nhất
 Mobile.executeShellCommand("logcat -c")
